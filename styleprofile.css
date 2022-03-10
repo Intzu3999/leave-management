@@ -1,0 +1,100 @@
+body{
+        margin: 0px;
+        font-family: cambria, Arial, bold;
+}
+
+header{
+	background: black;
+	color: white;
+	padding: 8px 20px 6px 40px;
+	height: 50px;
+        font-family: cambria, Arial, bold;
+
+}
+
+header h1{
+	display: inline;
+        font-family: cambria, Arial, bold;
+	font-weight: 400;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+nav ul {
+	display: inline;
+	padding: 0px;
+	float: right;
+        font-family: cambria, Arial, bold;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px;
+        font-family: cambria, Arial, bold;
+
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;	
+        font-family: cambria, Arial, bold;
+}
+
+
+nav ul ul{
+	display: none;
+	position: absolute;
+        font-family: cambria, Arial, bold;
+}
+
+#navli ul li ul:hovar{
+	visibility: visible;
+	display: block;
+        font-family: cambria, Arial, bold;
+}
+
+
+
+
+
+#navli{
+        font-family: cambria, Arial, bold;
+}
+
+.homered{
+	background-color: gray;
+	padding: 30px 10px 22px 10px;
+}
+
+.divider{
+	background-color: lightgray;
+	height: 5px;
+}
+
+.homeblack:hover{
+	background-color: blue;
+	padding: 30px 10px 21px 10px;
+
+}
+
+.info{
+	margin: 10px;
+        font-family: cambria, Arial, bold;
+	border: 5px solid green;
+	width: 300px;
+	height: auto;
+	position: static;
+	left: 100px;
+}
+
+.name{
+	font-size: 20px;
+	margin-left: 10px;
+	width: 200px;
+	float: right;
+}
